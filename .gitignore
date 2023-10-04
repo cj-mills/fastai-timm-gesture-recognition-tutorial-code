@@ -1,5 +1,5 @@
 /notebooks/pretrained_checkpoints/*
-/notebooks/pytorch-yolox-object-detector/*
+/notebooks/fastai-timm-image-classifier/*
 /notebooks/.ipynb_checkpoints/*
 /notebooks/*.ttf
 /notebooks/*.jpg
