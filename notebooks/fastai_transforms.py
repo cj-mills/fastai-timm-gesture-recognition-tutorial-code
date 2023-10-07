@@ -17,5 +17,5 @@ class TorchvisionComposeWrapper(Transform):
         self.transforms = transforms.Compose(transforms_list)
 
     def encodes(self, x: PILImage) -> PILImage:
-        """Apply the Torchvision transformations to a PIL image."""
+        """Apply the Torchvision transformations to the PILImage."""
         return PILImage(self.transforms(x))
